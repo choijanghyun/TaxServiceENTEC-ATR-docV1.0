@@ -10,7 +10,7 @@
 > **참조 문서**:
 >   - 계획서: `docs/01-plan/features/Tax-refund.plan.md`
 >   - 스키마: `docs/01-plan/schema.md` (63개 테이블, 5계층)
->   - 참고1번: `참고1번-development-design-v2.md` (방향성 참조)
+>   - 참고1번: `refer-to-doc/참고1번-development-design-v2.md` (방향성 참조)
 
 ---
 
@@ -341,7 +341,7 @@ tax-service-entec/
 │   │
 │   └── test/
 │       ├── java/com/taxservice/entec/
-│       │   ├── domain/service/module/m4/                # 53개 공식 단위 테스트
+│       │   ├── domain/service/module/m4/                # 56개 공식 단위 테스트
 │       │   │   ├── InvestmentCreditCalcTest.java
 │       │   │   ├── EmploymentCreditCalcTest.java
 │       │   │   └── ...
@@ -1701,7 +1701,7 @@ public interface CreditCalculator {
 
 ### 11.3 전체 계산 공식 목록 (56개)
 
-> 참고1번 6절 기반. 법인 F01~F41(17개) + 개인 F-INC-01~11(11개) + 공통 F-COM-01(1개) = 총 56개 공식 (기존 53개에서 F11, F-COM-01, F-INC-07~11 추가)
+> 참고1번 6절 기반. 법인 F01~F41(21개) + 개인 F-INC-01~11(11개) + 공통 F-COM-01(1개) = 총 56개 공식 (기존 53개에서 F11, F-COM-01, F-INC-07~11 추가). F번호는 비연속(F01~F04, F10~F13, F14~F19, F30~F34, F40~F41)이므로 41번까지이나 실제 21개.
 
 #### 11.3.1 법인세 과세표준 및 산출세액 (F01~F04)
 

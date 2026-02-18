@@ -4,7 +4,7 @@
 > **Version**: v1.0
 > **Date**: 2026-02-18
 > **Status**: Draft
-> **참조**: 참고1번-development-design-v2.md (방향성 참조), 법인세/종합소득세 프롬프트 v2.0
+> **참조**: refer-to-doc/참고1번-development-design-v2.md (방향성 참조), refer-to-doc/법인세·종합소득세-프롬프트_v2.0.md
 > **설계 원칙**: 참고1번 설계서는 초안으로 방향성만 참조. 입력·요약·출력 3계층을 새롭게 정의.
 
 ---

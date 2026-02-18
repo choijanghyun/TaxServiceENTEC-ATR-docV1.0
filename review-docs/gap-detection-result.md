@@ -1,13 +1,13 @@
 # Design-Implementation Gap Analysis Report
 # 법인세/종합소득세 프롬프트 요구사항 vs Tax-refund 설계서 커버리지 분석
 
-> **Summary**: 법인세 프롬프트 v2.0 (40개 점검항목) 및 종합소득세 프롬프트 v2.0 (37개 점검항목) 대비 Tax-refund.design.md + 참고1번-development-design-v2.md 설계서 커버리지를 체계적으로 분석
+> **Summary**: 법인세 프롬프트 v2.0 (40개 점검항목) 및 종합소득세 프롬프트 v2.0 (37개 점검항목) 대비 Tax-refund.design.md + refer-to-doc/참고1번-development-design-v2.md 설계서 커버리지를 체계적으로 분석
 >
 > **Analysis Date**: 2026-02-18
 > **최종 갱신**: 2026-02-18 (설계서 v1.2 Warning 9건 보완 반영)
 > **Design Document**: `docs/02-design/features/Tax-refund.design.md` (v1.1→**v1.2**)
-> **Reference Design**: `참고1번-development-design-v2.md`
-> **Prompt Sources**: `법인세-프롬프트_v2.0.md`, `종합소득세-프롬프트_v2.0.md`
+> **Reference Design**: `refer-to-doc/참고1번-development-design-v2.md`
+> **Prompt Sources**: `refer-to-doc/법인세-프롬프트_v2.0.md`, `refer-to-doc/종합소득세-프롬프트_v2.0.md`
 > **Status**: Completed (Critical 0건)
 
 ---
@@ -379,7 +379,7 @@
 
 ---
 
-## 8. 참고 설계서(참고1번-development-design-v2.md) 정합성
+## 8. 참고 설계서(refer-to-doc/참고1번-development-design-v2.md) 정합성
 
 | 항목 | 참고 설계서 내용 | Tax-refund 설계서 반영 | 상태 |
 |------|----------------|---------------------|:----:|
